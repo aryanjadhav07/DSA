@@ -2,6 +2,8 @@
 #include<map>
 #include<vector>
 #include<string>
+#include<bits/stdc++.h>
+
 using namespace std;
 
 struct Flight{
@@ -64,6 +66,7 @@ int main(){
     FlightGraph g;
 
     g.addFlight("Delhi", "Mumbai", 1500);
+    g.addFlight("Mumbai", "Kerla", 3000);
     g.addFlight("Delhi", "Chennai", 2000);
     g.addFlight("Mumbai", "Kolkata", 1800);
     g.addFlight("Chennai", "Kolkata", 2500);
